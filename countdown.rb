@@ -1,9 +1,9 @@
-counter = 0
-def countdown(int)
-  while counter < int.to_i
-  counter -= 1
+num = 0
+def countdown(num)
+  while num > 0 
+  num -= 1
 end
-if counter == 0 
+if num == 0 
   puts "HAPPY NEW YEAR!"
 end
 end
